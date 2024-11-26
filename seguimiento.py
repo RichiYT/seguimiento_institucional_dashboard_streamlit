@@ -1,11 +1,9 @@
 import streamlit as st
 import pandas as pd
-import locale
 import grafico_lineas as gl
 import grafico_barras as gb
 import grafico_pizza as gp
 
-locale.setlocale(locale.LC_TIME, "es_ES.utf8") 
 st.set_page_config(layout = 'wide')
 st.title('Seguimiento Presupuestal :bar_chart: ')
 
